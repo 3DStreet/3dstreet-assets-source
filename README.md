@@ -1,2 +1,2 @@
 # 3dstreet-assets
-3DStreet original and published models
+3DStreet source files and published assets
