@@ -1,0 +1,347 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.2.75",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "SM_Bld_House_Preset_03_1800",
+      "rotation": [
+        0,
+        -0.70710748434066772,
+        0,
+        0.70710611343383789
+      ],
+      "scale": [
+        0.0099999997764825821,
+        0.0099999997764825821,
+        0.0099999997764825821
+      ],
+      "translation": [
+        -23.621376037597656,
+        -0.52145504951477051,
+        1.667649507522583
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "SM_Bld_House_Preset_08_1809",
+      "rotation": [
+        0,
+        -0.70710712671279907,
+        0,
+        0.70710641145706177
+      ],
+      "scale": [
+        0.0099999997764825821,
+        0.0099999997764825821,
+        0.0099999997764825821
+      ],
+      "translation": [
+        24.434421539306641,
+        -0.50510591268539429,
+        1.1316483020782471
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "SM_Bld_House_Preset_09_1845",
+      "rotation": [
+        0,
+        -0.70710676908493042,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.0099999997764825821,
+        0.0099999997764825821,
+        0.0099999997764825821
+      ],
+      "translation": [
+        1.2528743743896484,
+        -0.688389241695404,
+        -1.256483793258667
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Mat_PolygonTown_01_A",
+      "normalTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SM_Bld_House_Preset_03",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SM_Bld_House_Preset_08",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SM_Bld_House_Preset_09",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
+          },
+          "indices": 10,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "TEXCOORD_1": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    }
+  ],
+  "images": [
+    {
+      "name": "PolygonTown_Texture_Normal_A",
+      "uri": "suburbia-fixwindowuvs-only3-draco_image0.jpg"
+    },
+    {
+      "name": "PolygonTown_Texture_01_A",
+      "uri": "suburbia-fixwindowuvs-only3-draco_image1.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 14349,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 9795,
+      "max": [
+        693.56146240234375,
+        635.92755126953125,
+        693.5615234375
+      ],
+      "min": [
+        -693.56146240234375,
+        -9.8545780181884766,
+        -693.5615234375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 9795,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 9795,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 9795,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 17358,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 10172,
+      "max": [
+        693.56146240234375,
+        635.9228515625,
+        943.5615234375
+      ],
+      "min": [
+        -693.56146240234375,
+        -4.95457649230957,
+        -943.5615234375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 10172,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 10172,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 10172,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 15963,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 9097,
+      "max": [
+        443.56143188476562,
+        867.06890869140625,
+        568.56097412109375
+      ],
+      "min": [
+        -443.56143188476562,
+        -3.1433277476126259E-14,
+        -568.56097412109375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 9097,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 9097,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 9097,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 32511
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32512,
+      "byteLength": 38380
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 70892,
+      "byteLength": 35255
+    }
+  ],
+  "buffers": [
+    {
+      "name": "suburbia-fixwindowuvs-only3-draco",
+      "byteLength": 106147,
+      "uri": "suburbia-fixwindowuvs-only3-draco.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}
