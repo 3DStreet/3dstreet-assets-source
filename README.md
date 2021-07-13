@@ -44,5 +44,4 @@ Sets are .blend files that contain links to collections from blend files in the 
 The Blender files were created in Blender 2.92.0
 
 ## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
+Code base of this repo (`3dstreet-assets`) is licensed under the MIT License. Objects are licensed CC-BY-NC-SA (Creative Commons Non-Commercial Share Alike) unless otherwise noted. See the LICENSE.md file for details
