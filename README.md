@@ -15,6 +15,9 @@ The models folder contains subfolders for individual assets. Each subfolder cont
 ### Sets
 Sets are .blend files that contain links to collections from blend files in the Models folder. Sets allow multiple models to be exported together for the 3dStreet application efficiently and without duplicated dependencies. The exports folder contains gltf and/or glb files ready for use in the application.
 
+### Diagram
+<img src="diagram.png" height="400" />
+
 ## 3dStreet Modeling Best Practices
 
 ### File Setup
