@@ -22,7 +22,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Character_1_M",
+            "name" : "Character_1",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -32,7 +32,7 @@
         },
         {
             "mesh" : 1,
-            "name" : "Character_2_F",
+            "name" : "Character_2",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -42,7 +42,7 @@
         },
         {
             "mesh" : 2,
-            "name" : "Character_3_M",
+            "name" : "Character_3",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -52,7 +52,7 @@
         },
         {
             "mesh" : 3,
-            "name" : "Character_4_M",
+            "name" : "Character_4",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -62,7 +62,7 @@
         },
         {
             "mesh" : 4,
-            "name" : "Character_5_M",
+            "name" : "Character_5",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -72,7 +72,7 @@
         },
         {
             "mesh" : 5,
-            "name" : "Character_6_M",
+            "name" : "Character_6",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -82,7 +82,7 @@
         },
         {
             "mesh" : 6,
-            "name" : "Character_7_F",
+            "name" : "Character_7",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -92,7 +92,7 @@
         },
         {
             "mesh" : 7,
-            "name" : "Character_8_F",
+            "name" : "Character_8",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -116,7 +116,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Character_1_M",
+            "name" : "Character_1",
             "primitives" : [
                 {
                     "attributes" : {
@@ -130,7 +130,7 @@
             ]
         },
         {
-            "name" : "Character_2_F",
+            "name" : "Character_2",
             "primitives" : [
                 {
                     "attributes" : {
@@ -144,7 +144,7 @@
             ]
         },
         {
-            "name" : "Character_3_M",
+            "name" : "Character_3",
             "primitives" : [
                 {
                     "attributes" : {
@@ -158,7 +158,7 @@
             ]
         },
         {
-            "name" : "Character_4_M",
+            "name" : "Character_4",
             "primitives" : [
                 {
                     "attributes" : {
@@ -172,7 +172,7 @@
             ]
         },
         {
-            "name" : "Character_5_M",
+            "name" : "Character_5",
             "primitives" : [
                 {
                     "attributes" : {
@@ -186,7 +186,7 @@
             ]
         },
         {
-            "name" : "Character_6_M",
+            "name" : "Character_6",
             "primitives" : [
                 {
                     "attributes" : {
@@ -200,7 +200,7 @@
             ]
         },
         {
-            "name" : "Character_7_F",
+            "name" : "Character_7",
             "primitives" : [
                 {
                     "attributes" : {
@@ -214,7 +214,7 @@
             ]
         },
         {
-            "name" : "Character_8_F",
+            "name" : "Character_8",
             "primitives" : [
                 {
                     "attributes" : {
