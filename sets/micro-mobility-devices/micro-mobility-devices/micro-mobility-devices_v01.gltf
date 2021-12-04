@@ -1,0 +1,206 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "ElectricScooter_1"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Bicycle_1"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "atlas_colors",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6499999761581421
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "ElectricScooter_1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Bicycle_1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "atlas_colors_diffuse",
+            "uri" : "atlas_colors_diffuse.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 7389,
+            "max" : [
+                0.3129494786262512,
+                1.9652893543243408,
+                0.509662389755249
+            ],
+            "min" : [
+                -0.3129494786262512,
+                -0.005407080054283142,
+                -0.6242737174034119
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 7389,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 7389,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 11172,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 9505,
+            "max" : [
+                0.3582204282283783,
+                1.954673409461975,
+                1.032760739326477
+            ],
+            "min" : [
+                -0.3302391767501831,
+                -0.013534174300730228,
+                -0.9908725619316101
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 9505,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 9505,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 13983,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 88668,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 88668,
+            "byteOffset" : 88668
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 59112,
+            "byteOffset" : 177336
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22344,
+            "byteOffset" : 236448
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 114060,
+            "byteOffset" : 258792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 114060,
+            "byteOffset" : 372852
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 76040,
+            "byteOffset" : 486912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27966,
+            "byteOffset" : 562952
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 590920,
+            "uri" : "micro-mobility-devices_v01.bin"
+        }
+    ]
+}
