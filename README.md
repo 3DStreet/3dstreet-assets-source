@@ -46,5 +46,10 @@ Sets are .blend files that contain links to collections from blend files in the 
 ## Dependencies
 The Blender files were created in Blender 2.92.0
 
+## Video Tutorial
+<a href="https://drive.google.com/file/d/1VuSwrNL567EcYXN6LaNk9FQDwKGFDHTF/view?usp=sharing"><img src="workflow-tutorial-poster.jpg" height="200" />
+
+This step-by-step video tutorial</a> by [@mwbeene](https://github.com/mwbeene) is perfect for any level of Blender experience (even beginners) to learn the 3DStreet model pipeline. It can also be useful for other web-based 3d apps outside of 3DStreet.
+
 ## License
 Code base of this repo (`3dstreet-assets`) is licensed under the MIT License. Objects are licensed CC-BY-NC-SA (Creative Commons Non-Commercial Share Alike) unless otherwise noted. See the LICENSE file for details
