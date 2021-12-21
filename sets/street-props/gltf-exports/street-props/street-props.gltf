@@ -233,35 +233,35 @@
         {
             "bufferView" : 12,
             "componentType" : 5126,
-            "count" : 11522,
+            "count" : 12486,
             "max" : [
                 43.77049255371094,
-                67.77507019042969,
+                199.60855102539062,
                 72.37664794921875
             ],
             "min" : [
-                -473.5081787109375,
+                -491.28472900390625,
                 -40.66358947753906,
-                -177.62335205078125
+                -183.85409545898438
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 13,
             "componentType" : 5126,
-            "count" : 11522,
+            "count" : 12486,
             "type" : "VEC3"
         },
         {
             "bufferView" : 14,
             "componentType" : 5126,
-            "count" : 11522,
+            "count" : 12486,
             "type" : "VEC2"
         },
         {
             "bufferView" : 15,
             "componentType" : 5123,
-            "count" : 18060,
+            "count" : 19212,
             "type" : "SCALAR"
         }
     ],
@@ -328,23 +328,23 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 138264,
+            "byteLength" : 149832,
             "byteOffset" : 160600
         },
         {
             "buffer" : 0,
-            "byteLength" : 138264,
-            "byteOffset" : 298864
+            "byteLength" : 149832,
+            "byteOffset" : 310432
         },
         {
             "buffer" : 0,
-            "byteLength" : 92176,
-            "byteOffset" : 437128
+            "byteLength" : 99888,
+            "byteOffset" : 460264
         },
         {
             "buffer" : 0,
-            "byteLength" : 36120,
-            "byteOffset" : 529304
+            "byteLength" : 38424,
+            "byteOffset" : 560152
         }
     ],
     "samplers" : [
@@ -355,7 +355,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 565424,
+            "byteLength" : 598576,
             "uri" : "street-props.bin"
         }
     ]
