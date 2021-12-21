@@ -9,7 +9,9 @@
             "name" : "Scene",
             "nodes" : [
                 0,
-                1
+                1,
+                2,
+                3
             ]
         }
     ],
@@ -21,6 +23,24 @@
         {
             "mesh" : 1,
             "name" : "outdoor_dining"
+        },
+        {
+            "mesh" : 2,
+            "name" : "utility_pole"
+        },
+        {
+            "mesh" : 3,
+            "name" : "parklet",
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "translation" : [
+                2.349254608154297,
+                0.4037470519542694,
+                0.5262335538864136
+            ]
         }
     ],
     "materials" : [
@@ -44,10 +64,9 @@
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TEXCOORD_0" : 2,
-                        "TEXCOORD_1" : 3
+                        "TEXCOORD_0" : 2
                     },
-                    "indices" : 4,
+                    "indices" : 3,
                     "material" : 0
                 }
             ]
@@ -57,11 +76,39 @@
             "primitives" : [
                 {
                     "attributes" : {
-                        "POSITION" : 5,
-                        "NORMAL" : 6,
-                        "TEXCOORD_0" : 7
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
                     },
-                    "indices" : 8,
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "utility_pole",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "parklet",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
                     "material" : 0
                 }
             ]
@@ -111,18 +158,12 @@
         },
         {
             "bufferView" : 3,
-            "componentType" : 5126,
-            "count" : 1273,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 4,
             "componentType" : 5123,
             "count" : 1800,
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 5,
+            "bufferView" : 4,
             "componentType" : 5126,
             "count" : 1691,
             "max" : [
@@ -138,21 +179,89 @@
             "type" : "VEC3"
         },
         {
-            "bufferView" : 6,
+            "bufferView" : 5,
             "componentType" : 5126,
             "count" : 1691,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 7,
+            "bufferView" : 6,
             "componentType" : 5126,
             "count" : 1691,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 8,
+            "bufferView" : 7,
             "componentType" : 5123,
             "count" : 2880,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 1613,
+            "max" : [
+                0.5071192979812622,
+                4.297267436981201,
+                0.16397903859615326
+            ],
+            "min" : [
+                -0.5071192979812622,
+                0.003673762083053589,
+                -0.16397900879383087
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 1613,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 1613,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 2388,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 11522,
+            "max" : [
+                43.77049255371094,
+                67.77507019042969,
+                72.37664794921875
+            ],
+            "min" : [
+                -473.5081787109375,
+                -40.66358947753906,
+                -177.62335205078125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 11522,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 11522,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 18060,
             "type" : "SCALAR"
         }
     ],
@@ -174,33 +283,68 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 10184,
+            "byteLength" : 3600,
             "byteOffset" : 40736
         },
         {
             "buffer" : 0,
-            "byteLength" : 3600,
-            "byteOffset" : 50920
+            "byteLength" : 20292,
+            "byteOffset" : 44336
         },
         {
             "buffer" : 0,
             "byteLength" : 20292,
-            "byteOffset" : 54520
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 20292,
-            "byteOffset" : 74812
+            "byteOffset" : 64628
         },
         {
             "buffer" : 0,
             "byteLength" : 13528,
-            "byteOffset" : 95104
+            "byteOffset" : 84920
         },
         {
             "buffer" : 0,
             "byteLength" : 5760,
-            "byteOffset" : 108632
+            "byteOffset" : 98448
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19356,
+            "byteOffset" : 104208
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19356,
+            "byteOffset" : 123564
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12904,
+            "byteOffset" : 142920
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4776,
+            "byteOffset" : 155824
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 138264,
+            "byteOffset" : 160600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 138264,
+            "byteOffset" : 298864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 92176,
+            "byteOffset" : 437128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36120,
+            "byteOffset" : 529304
         }
     ],
     "samplers" : [
@@ -211,7 +355,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 114392,
+            "byteLength" : 565424,
             "uri" : "street-props.bin"
         }
     ]
