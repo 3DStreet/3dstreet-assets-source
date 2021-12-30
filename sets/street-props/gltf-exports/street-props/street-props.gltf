@@ -19,7 +19,9 @@
                 8,
                 9,
                 10,
-                11
+                11,
+                12,
+                13
             ]
         }
     ],
@@ -87,6 +89,14 @@
         {
             "mesh" : 11,
             "name" : "tree-01"
+        },
+        {
+            "mesh" : 12,
+            "name" : "street-light"
+        },
+        {
+            "mesh" : 13,
+            "name" : "street-light-double"
         }
     ],
     "materials" : [
@@ -267,6 +277,34 @@
                         "TEXCOORD_0" : 46
                     },
                     "indices" : 47,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "street-light",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 48,
+                        "NORMAL" : 49,
+                        "TEXCOORD_0" : 50
+                    },
+                    "indices" : 51,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "street-light-double",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 52,
+                        "NORMAL" : 53,
+                        "TEXCOORD_0" : 54
+                    },
+                    "indices" : 55,
                     "material" : 0
                 }
             ]
@@ -693,6 +731,74 @@
             "componentType" : 5123,
             "count" : 948,
             "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 48,
+            "componentType" : 5126,
+            "count" : 406,
+            "max" : [
+                2.374819278717041,
+                9.866564750671387,
+                0.21777532994747162
+            ],
+            "min" : [
+                -0.23806926608085632,
+                -3.878822951719485e-08,
+                -0.21777547895908356
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 49,
+            "componentType" : 5126,
+            "count" : 406,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 50,
+            "componentType" : 5126,
+            "count" : 406,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 51,
+            "componentType" : 5123,
+            "count" : 609,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 52,
+            "componentType" : 5126,
+            "count" : 679,
+            "max" : [
+                2.374819278717041,
+                9.866564750671387,
+                0.21777547895908356
+            ],
+            "min" : [
+                -2.3748161792755127,
+                -3.8786406975077625e-08,
+                -0.21777547895908356
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 53,
+            "componentType" : 5126,
+            "count" : 679,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 54,
+            "componentType" : 5126,
+            "count" : 679,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 55,
+            "componentType" : 5123,
+            "count" : 1002,
+            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -935,6 +1041,46 @@
             "buffer" : 0,
             "byteLength" : 1896,
             "byteOffset" : 1178604
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4872,
+            "byteOffset" : 1180500
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4872,
+            "byteOffset" : 1185372
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3248,
+            "byteOffset" : 1190244
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1218,
+            "byteOffset" : 1193492
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8148,
+            "byteOffset" : 1194712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8148,
+            "byteOffset" : 1202860
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5432,
+            "byteOffset" : 1211008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2004,
+            "byteOffset" : 1216440
         }
     ],
     "samplers" : [
@@ -945,7 +1091,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 1180500,
+            "byteLength" : 1218444,
             "uri" : "street-props.bin"
         }
     ]
