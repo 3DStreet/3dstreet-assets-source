@@ -1,0 +1,314 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "suburban-house_1"
+        },
+        {
+            "mesh" : 1,
+            "name" : "suburban-house_2"
+        },
+        {
+            "mesh" : 2,
+            "name" : "suburban-house_3"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "atlas-colors-suburban-houses",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "suburban-house_1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "suburban-house_2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6,
+                        "TEXCOORD_0" : 7,
+                        "TEXCOORD_1" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "suburban-house_3",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 10,
+                        "NORMAL" : 11,
+                        "TEXCOORD_0" : 12,
+                        "TEXCOORD_1" : 13
+                    },
+                    "indices" : 14,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "atlas-colors-suburban-houses_diffuse",
+            "uri" : "atlas-colors-suburban-houses_diffuse.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 7091,
+            "max" : [
+                6.9356279373168945,
+                6.359116554260254,
+                6.935628414154053
+            ],
+            "min" : [
+                -6.9356279373168945,
+                -0.09854577481746674,
+                -6.935617446899414
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 7091,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 7091,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 7091,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 14349,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 7435,
+            "max" : [
+                5.685609817504883,
+                8.67052936553955,
+                4.435505390167236
+            ],
+            "min" : [
+                -5.685609817504883,
+                -3.143327620557684e-16,
+                -4.435614585876465
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 7435,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 7435,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 7435,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 15963,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 8305,
+            "max" : [
+                9.435623168945312,
+                6.359508037567139,
+                6.935321807861328
+            ],
+            "min" : [
+                -9.435623168945312,
+                -0.0495457649230957,
+                -6.935614585876465
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 8305,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 8305,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 8305,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5123,
+            "count" : 17358,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 85092,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 85092,
+            "byteOffset" : 85092
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 56728,
+            "byteOffset" : 170184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 56728,
+            "byteOffset" : 226912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28698,
+            "byteOffset" : 283640
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 89220,
+            "byteOffset" : 312340
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 89220,
+            "byteOffset" : 401560
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 59480,
+            "byteOffset" : 490780
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 59480,
+            "byteOffset" : 550260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31926,
+            "byteOffset" : 609740
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 99660,
+            "byteOffset" : 641668
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 99660,
+            "byteOffset" : 741328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 66440,
+            "byteOffset" : 840988
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 66440,
+            "byteOffset" : 907428
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34716,
+            "byteOffset" : 973868
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1008584,
+            "uri" : "suburban-houses.bin"
+        }
+    ]
+}
