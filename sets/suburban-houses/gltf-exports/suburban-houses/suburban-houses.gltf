@@ -31,7 +31,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "altas-colors_2",
+            "name" : "atlas-colors-suburban-houses",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -97,8 +97,8 @@
     "images" : [
         {
             "mimeType" : "image/jpeg",
-            "name" : "atlas_colors_2_diffuse",
-            "uri" : "atlas_colors_2_diffuse.jpg"
+            "name" : "atlas-colors-suburban-houses_diffuse",
+            "uri" : "atlas-colors-suburban-houses_diffuse.jpg"
         }
     ],
     "accessors" : [
