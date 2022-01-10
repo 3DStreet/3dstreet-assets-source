@@ -21,7 +21,8 @@
                 10,
                 11,
                 12,
-                13
+                13,
+                14
             ]
         }
     ],
@@ -97,6 +98,16 @@
         {
             "mesh" : 13,
             "name" : "street-light-double"
+        },
+        {
+            "mesh" : 14,
+            "name" : "transit-shelter-1",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
         }
     ],
     "materials" : [
@@ -305,6 +316,20 @@
                         "TEXCOORD_0" : 54
                     },
                     "indices" : 55,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "transit-shelter-1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 56,
+                        "NORMAL" : 57,
+                        "TEXCOORD_0" : 58
+                    },
+                    "indices" : 59,
                     "material" : 0
                 }
             ]
@@ -799,6 +824,40 @@
             "componentType" : 5123,
             "count" : 1002,
             "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 56,
+            "componentType" : 5126,
+            "count" : 1170,
+            "max" : [
+                2.2556724548339844,
+                0.6543188095092773,
+                0.009992821142077446
+            ],
+            "min" : [
+                -2.2556724548339844,
+                -0.916602611541748,
+                -3.0630764961242676
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 57,
+            "componentType" : 5126,
+            "count" : 1170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 58,
+            "componentType" : 5126,
+            "count" : 1170,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 59,
+            "componentType" : 5123,
+            "count" : 1824,
+            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -1081,6 +1140,26 @@
             "buffer" : 0,
             "byteLength" : 2004,
             "byteOffset" : 1216440
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14040,
+            "byteOffset" : 1218444
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14040,
+            "byteOffset" : 1232484
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9360,
+            "byteOffset" : 1246524
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3648,
+            "byteOffset" : 1255884
         }
     ],
     "samplers" : [
@@ -1091,7 +1170,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 1218444,
+            "byteLength" : 1259532,
             "uri" : "street-props.bin"
         }
     ]
