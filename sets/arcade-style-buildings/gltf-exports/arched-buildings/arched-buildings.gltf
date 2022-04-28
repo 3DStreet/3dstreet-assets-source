@@ -1,0 +1,352 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.13",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "arched-building-02"
+        },
+        {
+            "mesh" : 1,
+            "name" : "arched-building-03"
+        },
+        {
+            "mesh" : 2,
+            "name" : "arched-building-01"
+        },
+        {
+            "mesh" : 3,
+            "name" : "arched-building-04"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "atlas_colors",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6499999761581421
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.013",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cube.014",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cube.015",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cube.016",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "atlas_colors_diffuse",
+            "uri" : "atlas_colors_diffuse.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 39808,
+            "max" : [
+                5.5955491065979,
+                16.69125747680664,
+                4.595549583435059
+            ],
+            "min" : [
+                -5.595549583435059,
+                0,
+                -4.5955491065979
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 39808,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 39808,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 49803,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 36723,
+            "max" : [
+                6.5955491065979,
+                13.704255104064941,
+                4.595549583435059
+            ],
+            "min" : [
+                -6.595549583435059,
+                0,
+                -4.5955491065979
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 36723,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 36723,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 46686,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 47428,
+            "max" : [
+                4.5955491065979,
+                22.665254592895508,
+                4.595549583435059
+            ],
+            "min" : [
+                -4.595549583435059,
+                0,
+                -4.5955491065979
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 47428,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 47428,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 57945,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 31900,
+            "max" : [
+                7.5955491065979,
+                10.717254638671875,
+                4.595549583435059
+            ],
+            "min" : [
+                -7.595549583435059,
+                0,
+                -4.5955491065979
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 31900,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 31900,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 41706,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 477696,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 477696,
+            "byteOffset" : 477696
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 318464,
+            "byteOffset" : 955392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 99606,
+            "byteOffset" : 1273856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 440676,
+            "byteOffset" : 1373464
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 440676,
+            "byteOffset" : 1814140
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 293784,
+            "byteOffset" : 2254816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 93372,
+            "byteOffset" : 2548600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 569136,
+            "byteOffset" : 2641972
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 569136,
+            "byteOffset" : 3211108
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 379424,
+            "byteOffset" : 3780244
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 115890,
+            "byteOffset" : 4159668
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 382800,
+            "byteOffset" : 4275560
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 382800,
+            "byteOffset" : 4658360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 255200,
+            "byteOffset" : 5041160
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 83412,
+            "byteOffset" : 5296360
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 5379772,
+            "uri" : "arched-buildings.bin"
+        }
+    ]
+}
