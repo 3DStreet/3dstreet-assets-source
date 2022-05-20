@@ -15,13 +15,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "signalsystem1",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
+            "name" : "signal1"
         }
     ],
     "materials" : [
@@ -71,35 +65,35 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 3346,
+            "count" : 3483,
             "max" : [
                 0.3778074085712433,
-                0.8258399963378906,
-                0
+                4.592121124267578,
+                0.8258407115936279
             ],
             "min" : [
                 -0.18314889073371887,
-                -0.15136100351810455,
-                -4.592121124267578
+                -2.4765773432022797e-08,
+                -0.15136100351810455
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 3346,
+            "count" : 3483,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 3346,
+            "count" : 3483,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 3346,
+            "count" : 3483,
             "normalized" : true,
             "type" : "VEC4"
         },
@@ -113,28 +107,28 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 40152,
+            "byteLength" : 41796,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 40152,
-            "byteOffset" : 40152
+            "byteLength" : 41796,
+            "byteOffset" : 41796
         },
         {
             "buffer" : 0,
-            "byteLength" : 26768,
-            "byteOffset" : 80304
+            "byteLength" : 27864,
+            "byteOffset" : 83592
         },
         {
             "buffer" : 0,
-            "byteLength" : 26768,
-            "byteOffset" : 107072
+            "byteLength" : 27864,
+            "byteOffset" : 111456
         },
         {
             "buffer" : 0,
             "byteLength" : 11274,
-            "byteOffset" : 133840
+            "byteOffset" : 139320
         }
     ],
     "samplers" : [
@@ -145,7 +139,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 145116,
+            "byteLength" : 150596,
             "uri" : "signal1.bin"
         }
     ]
