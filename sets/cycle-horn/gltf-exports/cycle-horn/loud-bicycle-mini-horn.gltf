@@ -15,7 +15,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Horn"
+            "name" : "loud-bicycle-mini-horn"
         }
     ],
     "materials" : [
@@ -33,7 +33,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.001",
+            "name" : "Plane.002",
             "primitives" : [
                 {
                     "attributes" : {
@@ -64,58 +64,58 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1148,
+            "count" : 1498,
             "max" : [
-                0.09043669700622559,
-                0.11349102109670639,
-                -0.00024389830650761724
+                0.0904366746544838,
+                0.15900154411792755,
+                0.02212720923125744
             ],
             "min" : [
-                -0.09043669700622559,
-                -0.012696342542767525,
-                -0.06936976313591003
+                -0.09043671935796738,
+                0,
+                -0.046998657286167145
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1148,
+            "count" : 1498,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 1148,
+            "count" : 1498,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 3768,
+            "count" : 4272,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13776,
+            "byteLength" : 17976,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 13776,
-            "byteOffset" : 13776
+            "byteLength" : 17976,
+            "byteOffset" : 17976
         },
         {
             "buffer" : 0,
-            "byteLength" : 9184,
-            "byteOffset" : 27552
+            "byteLength" : 11984,
+            "byteOffset" : 35952
         },
         {
             "buffer" : 0,
-            "byteLength" : 7536,
-            "byteOffset" : 36736
+            "byteLength" : 8544,
+            "byteOffset" : 47936
         }
     ],
     "samplers" : [
@@ -126,8 +126,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 44272,
-            "uri" : "cycle-horn.bin"
+            "byteLength" : 56480,
+            "uri" : "loud-bicycle-mini-horn.bin"
         }
     ]
 }
