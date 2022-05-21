@@ -39,10 +39,9 @@
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TEXCOORD_0" : 2,
-                        "COLOR_0" : 3
+                        "TEXCOORD_0" : 2
                     },
-                    "indices" : 4,
+                    "indices" : 3,
                     "material" : 0
                 }
             ]
@@ -93,13 +92,6 @@
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 7770,
-            "normalized" : true,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5123,
             "count" : 11781,
             "type" : "SCALAR"
         }
@@ -122,13 +114,8 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 62160,
-            "byteOffset" : 248640
-        },
-        {
-            "buffer" : 0,
             "byteLength" : 23562,
-            "byteOffset" : 310800
+            "byteOffset" : 248640
         }
     ],
     "samplers" : [
@@ -139,7 +126,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 334364,
+            "byteLength" : 272204,
             "uri" : "signal2.bin"
         }
     ]
