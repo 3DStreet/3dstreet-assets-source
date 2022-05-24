@@ -15,7 +15,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Horn"
+            "name" : "signal2"
         }
     ],
     "materials" : [
@@ -33,7 +33,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.001",
+            "name" : "Mesh_0.001",
             "primitives" : [
                 {
                     "attributes" : {
@@ -64,58 +64,58 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1148,
+            "count" : 7770,
             "max" : [
-                0.09043669700622559,
-                0.11349102109670639,
-                -0.00024389830650761724
+                0.3838611841201782,
+                7.747558116912842,
+                0.8930667042732239
             ],
             "min" : [
-                -0.09043669700622559,
-                -0.012696342542767525,
-                -0.06936976313591003
+                -8.444974899291992,
+                -4.628978422260843e-05,
+                -0.21234500408172607
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1148,
+            "count" : 7770,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 1148,
+            "count" : 7770,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 3768,
+            "count" : 11781,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13776,
+            "byteLength" : 93240,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 13776,
-            "byteOffset" : 13776
+            "byteLength" : 93240,
+            "byteOffset" : 93240
         },
         {
             "buffer" : 0,
-            "byteLength" : 9184,
-            "byteOffset" : 27552
+            "byteLength" : 62160,
+            "byteOffset" : 186480
         },
         {
             "buffer" : 0,
-            "byteLength" : 7536,
-            "byteOffset" : 36736
+            "byteLength" : 23562,
+            "byteOffset" : 248640
         }
     ],
     "samplers" : [
@@ -126,8 +126,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 44272,
-            "uri" : "cycle-horn.bin"
+            "byteLength" : 272204,
+            "uri" : "signal2.bin"
         }
     ]
 }
