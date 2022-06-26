@@ -1,0 +1,210 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "irish-bar-building"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "atlas_colors",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6499999761581421
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "atlas_colors_metallic",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0.10224173218011856,
+                    0.062467414885759354,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.281818151473999
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "irish-bar-building",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "atlas_colors_diffuse",
+            "uri" : "atlas_colors_diffuse.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 21273,
+            "max" : [
+                5.013617515563965,
+                8.928099632263184,
+                5.394372463226318
+            ],
+            "min" : [
+                -4.234333038330078,
+                0.0046787261962890625,
+                -4.888256549835205
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 21273,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 21273,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 23544,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 6128,
+            "max" : [
+                5.0017194747924805,
+                10.249645233154297,
+                5.382473468780518
+            ],
+            "min" : [
+                -4.222434997558594,
+                0,
+                -3.841681957244873
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 6128,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 6128,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 7302,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 255276,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 255276,
+            "byteOffset" : 255276
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 170184,
+            "byteOffset" : 510552
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 47088,
+            "byteOffset" : 680736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 73536,
+            "byteOffset" : 727824
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 73536,
+            "byteOffset" : 801360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 49024,
+            "byteOffset" : 874896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14604,
+            "byteOffset" : 923920
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 938524,
+            "uri" : "irish-bar-building.bin"
+        }
+    ]
+}
