@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+	width="10cm" height="10cm" viewBox="0 0 2 2"
+>
+	<!-- width and height are set large to avoid blurring of edges:
+		viewBox size makes no difference to this -->
+    <title>Minimal Monochrome Opaque Checkerboard Tile</title>
+	<desc>Created 2013 September 3 by Lawrence D'Oliveiro &lt;ldo@geek-central.gen.nz&gt;,
+	released under the Creative Commons Public Domain Dedication (CC0) licence</desc>
+
+    <g>
+    	<rect x="0" y="0" width="1" height="1" fill="#ffffff"/>
+    	<rect x="1" y="0" width="1" height="1" fill="#000000"/>
+    	<rect x="0" y="1" width="1" height="1" fill="#000000"/>
+    	<rect x="1" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+</svg>
