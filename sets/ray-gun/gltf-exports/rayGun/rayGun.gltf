@@ -69,9 +69,9 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 2753,
+            "count" : 2721,
             "max" : [
-                0.24827101826667786,
+                0.22455313801765442,
                 0.20602750778198242,
                 0.1417662799358368
             ],
@@ -85,13 +85,13 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 2753,
+            "count" : 2721,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 2753,
+            "count" : 2721,
             "type" : "VEC2"
         },
         {
@@ -104,23 +104,23 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 33036,
+            "byteLength" : 32652,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 33036,
-            "byteOffset" : 33036
+            "byteLength" : 32652,
+            "byteOffset" : 32652
         },
         {
             "buffer" : 0,
-            "byteLength" : 22024,
-            "byteOffset" : 66072
+            "byteLength" : 21768,
+            "byteOffset" : 65304
         },
         {
             "buffer" : 0,
             "byteLength" : 18006,
-            "byteOffset" : 88096
+            "byteOffset" : 87072
         }
     ],
     "samplers" : [
@@ -131,7 +131,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 106104,
+            "byteLength" : 105080,
             "uri" : "rayGun.bin"
         }
     ]
