@@ -1,0 +1,371 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                6
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "wheel_F_L",
+            "rotation" : [
+                -0.5000000596046448,
+                -0.5,
+                -0.4999999403953552,
+                0.5
+            ],
+            "scale" : [
+                1,
+                0.9999999403953552,
+                1
+            ],
+            "translation" : [
+                0.9273573756217957,
+                1.6322660446166992,
+                -0.3614388108253479
+            ]
+        },
+        {
+            "name" : "wheel_F_R",
+            "rotation" : [
+                -0.7071068286895752,
+                -0.7071068286895752,
+                -2.041101332395101e-08,
+                1.3767878215276141e-07
+            ],
+            "translation" : [
+                -0.9273574948310852,
+                1.6322661638259888,
+                -0.36143848299980164
+            ]
+        },
+        {
+            "name" : "wheel_B_R",
+            "rotation" : [
+                -0.7071068286895752,
+                -0.7071068286895752,
+                4.4338062110682586e-08,
+                5.338508302088485e-08
+            ],
+            "translation" : [
+                -0.9273574352264404,
+                -1.249790906906128,
+                -0.3614389896392822
+            ]
+        },
+        {
+            "name" : "wheel_B_L",
+            "rotation" : [
+                -0.5000000596046448,
+                -0.5,
+                -0.4999999403953552,
+                0.5
+            ],
+            "scale" : [
+                1,
+                0.9999999403953552,
+                1
+            ],
+            "translation" : [
+                0.9273573756217957,
+                -1.249790906906128,
+                -0.3614392876625061
+            ]
+        },
+        {
+            "children" : [
+                0,
+                1,
+                2,
+                3
+            ],
+            "name" : "main_bone",
+            "rotation" : [
+                0.7071068286895752,
+                -5.338508302088485e-08,
+                -5.338508302088485e-08,
+                0.7071068286895752
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "sedan",
+            "skin" : 0
+        },
+        {
+            "children" : [
+                5,
+                4
+            ],
+            "name" : "sedan_rig"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "atlas_colors",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6499999761581421
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "glass",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    1,
+                    1,
+                    0.30000001192092896
+                ],
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "sedan",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "JOINTS_0" : 3,
+                        "WEIGHTS_0" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8,
+                        "JOINTS_0" : 9,
+                        "WEIGHTS_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "atlas_colors_diffuse",
+            "uri" : "atlas_colors_diffuse.jpg"
+        }
+    ],
+    "skins" : [
+        {
+            "inverseBindMatrices" : 12,
+            "joints" : [
+                4,
+                0,
+                1,
+                2,
+                3
+            ],
+            "name" : "sedan_rig"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 10148,
+            "max" : [
+                1.086065649986267,
+                1.5350958108901978,
+                2.706883192062378
+            ],
+            "min" : [
+                -1.0860625505447388,
+                -2.6592991275720124e-07,
+                -2.4681410789489746
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 10148,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 10148,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5121,
+            "count" : 10148,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 10148,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 16386,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 66,
+            "max" : [
+                0.8581023812294006,
+                1.442517638206482,
+                1.109281301498413
+            ],
+            "min" : [
+                -0.8581015467643738,
+                1.012095332145691,
+                -1.5564740896224976
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 66,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 66,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5121,
+            "count" : 66,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 66,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 174,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 5,
+            "type" : "MAT4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 121776,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 121776,
+            "byteOffset" : 121776
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81184,
+            "byteOffset" : 243552
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 40592,
+            "byteOffset" : 324736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 162368,
+            "byteOffset" : 365328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32772,
+            "byteOffset" : 527696
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 792,
+            "byteOffset" : 560468
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 792,
+            "byteOffset" : 561260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 528,
+            "byteOffset" : 562052
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 264,
+            "byteOffset" : 562580
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1056,
+            "byteOffset" : 562844
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 348,
+            "byteOffset" : 563900
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 320,
+            "byteOffset" : 564248
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 564568,
+            "uri" : "sedan-rig.bin"
+        }
+    ]
+}
