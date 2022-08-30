@@ -1,5 +1,8 @@
-# 3dstreet-assets
-This repository contains the source files and published 3d assets for [3DStreet](https://www.3d.st/), an open-source web-based tool for visualizing safer streets.
+# 3dstreet-assets-source
+This repository contains the source files and published 3d assets for [3DStreet](https://www.3dstreet.org/), an open-source web-based tool for visualizing safer streets.
+
+## License
+Objects are licensed CC-BY-NC-SA (Creative Commons Non-Commercial Share Alike) unless otherwise noted. See the LICENSE file for details
 
 ## Installation
 Simply clone the repo and work directly on the included Blender files.
@@ -51,5 +54,3 @@ The Blender files were created in Blender 2.92.0
 
 This step-by-step video tutorial</a> by [@mwbeene](https://github.com/mwbeene) is perfect for any level of Blender experience (even beginners) to learn the 3DStreet model pipeline. It can also be useful for other web-based 3d apps outside of 3DStreet.
 
-## License
-Code base of this repo (`3dstreet-assets`) is licensed under the MIT License. Objects are licensed CC-BY-NC-SA (Creative Commons Non-Commercial Share Alike) unless otherwise noted. See the LICENSE file for details
