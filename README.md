@@ -1,5 +1,7 @@
 # 3dstreet-assets-source
-This repository contains the source files and published 3d assets for [3DStreet](https://www.3dstreet.org/), an open-source web-based tool for visualizing safer streets.
+This repository contains the source files for [3DStreet](https://www.3dstreet.org/), an open-source web-based tool for visualizing safer streets.
+
+This repo contains source files. For production ready assets, see [3DStreet-Assets-Dist](https://github.com/3DStreet/3dstreet-assets-dist) which contains compressed glTF models used in the 3DStreet app and available on our CDN at [assets.3dstreet.app](https://assets.3dstreet.app).
 
 ## License
 Objects are licensed CC-BY-NC-SA (Creative Commons Non-Commercial Share Alike) unless otherwise noted. See the LICENSE file for details
