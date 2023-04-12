@@ -56,3 +56,15 @@ The Blender files were created in Blender 2.92.0
 
 This step-by-step video tutorial</a> by [@mwbeene](https://github.com/mwbeene) is perfect for any level of Blender experience (even beginners) to learn the 3DStreet model pipeline. It can also be useful for other web-based 3d apps outside of 3DStreet.
 
+## Convert glTF to Glb wih Draco compression
+First option is to use [gltf-pipeline](github.com/CesiumGS/gltf-pipeline) command-line tool from Cesium team.
+* Install gltf-pipeline globaly (with -g parameter). Use instruction from https://www.npmjs.com/package/gltf-pipeline?activeTab=readme. Install Node.js if you don't already have it, and then:
+`npm install -g gltf-pipeline`
+* To convert glTF file into glb (with Draco compression) use command:
+`gltf-pipeline -i model.gltf -o modelDraco.glb -d`
+
+Another option is to use [gltf-transform](https://gltf-transform.donmccurdy.com/cli.html) command-line tool from DonMccurdy:
+* Install gltf-transform globaly (with -g parameter). Use instruction from https://gltf-transform.donmccurdy.com/cli.html. Install Node.js if you don't already have it, and then:
+`npm install --global @gltf-transform/cli`
+* To convert glTF file into glb (with Draco compression) use command:
+`gltf-transform draco model.gltf modelDraco.glb`
