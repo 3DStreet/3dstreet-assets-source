@@ -67,3 +67,5 @@ Another option is to use the [gltf-transform](https://gltf-transform.donmccurdy.
 `npm install --global @gltf-transform/cli`
 * To convert glTF file into glb (with Draco compression) use command:
 `gltf-transform draco model.gltf modelDraco.glb`
+
+In recent test as of August 2023 gltf-pipeline [resulted in smaller file size](https://github.com/3DStreet/3dstreet-assets-source/issues/68#issuecomment-1700282890)
