@@ -15,13 +15,16 @@ a) Retains full ownership of their Contributed Assets
 
 b) Grants to 3DStreet and its successors a worldwide, non-exclusive, perpetual, irrevocable, royalty-free, fully-paid, sublicensable, and transferable license to:
 
-Use, reproduce, modify, adapt, publish, translate, and distribute the Contributed Assets
-Create derivative works based on the Contributed Assets
-Include the Contributed Assets in the 3DStreet application and related services
-License or sublicense the Contributed Assets to third parties
-Exercise all rights in any medium now known or later developed
-Use the Contributed Assets for any purpose, whether commercial or non-commercial
+* Use, reproduce, modify, adapt, publish, translate, and distribute the Contributed Assets
+* Create derivative works based on the Contributed Assets
+* Include the Contributed Assets in the 3DStreet application and related services
+* License or sublicense the Contributed Assets to third parties
+* Exercise all rights in any medium now known or later developed
+* Use the Contributed Assets for any purpose, whether commercial or non-commercial
+
 c) Warrants that they have the legal right to grant such license and that the Contributed Assets do not infringe upon any third-party intellectual property rights
+
+d) It is at the sole discretion of 3DStreet staff as to which objects, textures, or code we may choose to integrate into the 3DStreet application.
 
 ## Installation
 Simply clone the repo and work directly on the included Blender files.
