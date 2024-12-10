@@ -3,8 +3,25 @@ This repository contains the source files for [3DStreet](https://www.3dstreet.or
 
 This repo contains source files. For production ready assets, see [3DStreet-Assets-Dist](https://github.com/3DStreet/3dstreet-assets-dist) which contains compressed glTF models used in the 3DStreet app and available on our CDN at [assets.3dstreet.app](https://assets.3dstreet.app).
 
-## License
+## License for Users
 Objects are licensed CC-BY-NC-SA (Creative Commons Non-Commercial Share Alike) unless otherwise noted. See the LICENSE file for details
+
+## License Grant for Contributors
+Contributions are welcome to this repo under the following terms. Submitting PRs to this repo are an acknowledgement and agreement to these terms:
+
+By contributing assets to 3DStreet LLC (3DStreet), the Contributor:
+
+a) Retains full ownership of their Contributed Assets
+
+b) Grants to 3DStreet and its successors a worldwide, non-exclusive, perpetual, irrevocable, royalty-free, fully-paid, sublicensable, and transferable license to:
+
+Use, reproduce, modify, adapt, publish, translate, and distribute the Contributed Assets
+Create derivative works based on the Contributed Assets
+Include the Contributed Assets in the 3DStreet application and related services
+License or sublicense the Contributed Assets to third parties
+Exercise all rights in any medium now known or later developed
+Use the Contributed Assets for any purpose, whether commercial or non-commercial
+c) Warrants that they have the legal right to grant such license and that the Contributed Assets do not infringe upon any third-party intellectual property rights
 
 ## Installation
 Simply clone the repo and work directly on the included Blender files.
